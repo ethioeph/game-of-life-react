@@ -1,6 +1,43 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.App {
+  text-align: left;
+}
+
+.title{
+  color: cadetblue;
+}
+
+.button-style-green {
+  height:30px;
+  border-radius: 4px;
+  background-color: rgb(60, 182, 60);
+  color: white;
+}
+
+.button-style-red {
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(201, 47, 9);
+  color: white;
+}
+
+.button-style-purple {
+  height: 30px;
+  border-radius: 4px;
+  background-color:rgb(197, 58, 197);
+  color: white;
+}
+
+.button-style-clear {
+  height: 30px;
+  border-radius: 4px;
+  background-color:rgb(120, 120, 197);
+  color: white;
 }
 
 ol, ul {
@@ -39,7 +76,7 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+    height: 34px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
